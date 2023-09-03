@@ -1,0 +1,23 @@
+{
+    "name": "cyberlife/prev-doc",
+    "autoload": {
+        "psr-4": {
+            "Cyberlife\\PrevDoc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Henry Shedrach"
+        }
+    ],
+    "require": {
+        "cloudconvert/cloudconvert-php": "^3.4",
+        "symfony/http-client": "^5.4",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
