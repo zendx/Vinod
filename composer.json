@@ -13,7 +13,10 @@
     "require": {
         "cloudconvert/cloudconvert-php": "^3.4",
         "symfony/http-client": "^5.4",
-        "nyholm/psr7": "^1.8"
+        "nyholm/psr7": "^1.8",
+        "zamzar/zamzar-php": "^2.0",
+        "vlucas/phpdotenv": "^5.5",
+        "devcoder-xyz/php-dotenv": "^2.1"
     },
     "config": {
         "allow-plugins": {
